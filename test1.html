@@ -6,12 +6,8 @@
 	
 </head>
 <body>
-任务一：零基础HTML编码：<a href="http://ife.baidu.com/task/detail?taskId=1">任务详情</a>
-<nav><nav></nav></nav>
-<aside></aside>
-<td></td>
 <table>
-	<caption>标签</caption>
+	<caption>HTML标签</caption>
 	<thead>
 		<tr>
 			<th>标签类型</th><th>标签名称或作用</th><th>标签代码</th><th>标签样式</th>
@@ -76,7 +72,7 @@
 			<td>斜体</td><td><code>&lt;i&gt;</code></td><td><i>标签样式</i></td>
 		</tr>
 		<tr>
-			<<td>内容强调，斜体</td><td><code>&lt;em&gt;</code></td><td><em>标签样式</em></td>
+			<td>内容强调，斜体</td><td><code>&lt;em&gt;</code></td><td><em>标签样式</em></td>
 		</tr>
 		<tr>
 			<td>重要性强调，粗体</td><td><code>&lt;strong&gt;</code></td><td><strong>标签样式</strong></td>
@@ -85,41 +81,41 @@
 			<td>换行</td><td><code>&lt;br&gt;</code></td><td><br>标签样式</td>
 		</tr>
 		<tr>
-			<th>列表组合</th><td>无序列表</td><td><pre><code>
+			<th rowspan="3">列表组合</th><td>无序列表</td><td><pre><code>
 &lt;ul&gt;
 	&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;</code></pre></td><td><ul><li>标签样式</li></ul></td>
 		</tr>
 		<tr>
-			<th>文档章节</th><td>有序列表</td><td><pre><code>
+			<td>有序列表</td><td><pre><code>
 &lt;ol&gt;
 	&lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;</code></pre></td><td><ol><li>标签样式</li></ol></td>
 		</tr>
 		<tr>
-			<th>文档章节</th><td>自定义列表</td><td><pre><code>
+			<td>自定义列表</td><td><pre><code>
 &lt;dl&gt;
 	&lt;dt&gt;&lt;/dt&gt;
 	&lt;dd&gt;&lt;/dd&gt;
 &lt;/ul&gt;</code></pre></td><td><dl><dt>作者</dt><dd>爱因斯坦</dd><dt>作品</dt><dd>《相对论》</dd><dd>《时间与空间》</dd></dl></td>
 		</tr>
 		<tr>
-			<th>嵌入式内容</th><td></td><td><pre><code>&lt;ifame src="#"&gt;</code></pre></td><td><iframe src="http://ife.baidu.com/task/detail?taskId=1">标签样式</iframe></td>
+			<th rowspan="9">嵌入式内容</th><td></td><td><pre><code>&lt;ifame src="#"&gt;</code></pre></td><td><iframe src="http://ife.baidu.com/task/detail?taskId=1">标签样式</iframe></td>
 		</tr>
 		<tr>
-			<th>文档章节</th><td>插件</td><td><pre><code>
+			<td>插件</td><td><pre><code>
 &lt;object type="application/x-shockwave-player"&gt;
 	&lt;param name="movie" value="book.pdf&gt;
 &lt;object&gt;</code></pre></td><td><object type="application/x-shockwave-player"><param name="movie" value="book.pdf"></object></td>
 		</tr>
 		<tr>
-			<th>文档章节</th><td>像素图</td><td><code>&lt;canvas&gt;</code></td><td><canvas>标签样式</canvas></td>
+			<td>像素图</td><td><code>&lt;canvas&gt;</code></td><td><canvas>标签样式</canvas></td>
 		</tr>
 		<tr>
-			<th>文档章节</th><td>矢量图</td><td><code>&lt;svg&gt;</code></td><td><svg>标签样式</svg></td>
+			<td>矢量图</td><td><code>&lt;svg&gt;</code></td><td><svg>标签样式</svg></td>
 		</tr>
 		<tr>
-			<th>文档章节</th><td>热点区域</td><td><pre><code>
+			<td>热点区域</td><td><pre><code>
 &lt;img src="js.png" wiidth="100" height="100" usemap="#map" /&gt;
 	&lt;map name="map"&gt;
 		&lt;area shape="rect" coords="0,0,50,50" href="" alt=""&gt;
@@ -127,7 +123,7 @@
 	&lt;/map&gt;</code></pre></td><td><img src="js.png" width="100" height="100" usemap="#map" /><map name="map"><area shape="rect" coords="0,0,50,50" href="" alt=""></area><area shape="circle" coords="75,75,25" href="" alt=""></area></map></td>
 		</tr>
 		<tr>
-			<th>文档章节</th><td>表格</td><td><pre><code>
+			<td>表格</td><td><pre><code>
 &lt;table&gt;
 	&lt;caption&gt;&lt;/caption&gt;
 	&lt;thead&gt;
@@ -156,7 +152,7 @@
 </table></td>
 		</tr>
 		<tr>
-			<th>文档章节</th><td>表单</td><td><pre><code>
+			<td>表单</td><td><pre><code>
 &lt;form action="WebCreation_submit" method="get" accept-charset="utf-8"&gt;
 	&lt;fieldset&gt;
 		&lt;legend&gt;title or explanatory caption&lt;/legend&gt;
@@ -198,10 +194,10 @@
 			</td>
 		</tr>
 		<tr>
-			<th>文档章节</th><td>文本框</td><td><code>&lt;textarea&gt;</code></td><td><textarea></textarea></td>
+			<td>文本框</td><td><code>&lt;textarea&gt;</code></td><td><textarea></textarea></td>
 		</tr>
 		<tr>
-			<th>文档章节</th><td>下拉菜单</td><td><pre><code>
+			<td>下拉菜单</td><td><pre><code>
 &lt;select&gt;
 	&lt;option&gt;&lt;/option&gt;
 &lt;select&gt;</code></pre></td><td><select><option>标签样式</option></select></td>
